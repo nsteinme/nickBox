@@ -1,7 +1,9 @@
 
 
 function mySaveFig(doSaveFig, thisFilename, figHand, figName)
-
+% function mySaveFig(doSaveFig, thisFilename, figHand, figName)
+% 
+% Save a figure in pdf and png, along with the code that generated it. 
 if doSaveFig
     if ~ispc
         thisFilename = strrep(thisFilename, '\', '/');

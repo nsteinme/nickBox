@@ -2,4 +2,5 @@
 
 function dbdir = dropboxDir()
 
-dbdir = fileparts(fileparts(fileparts(mfilename('fullpath')))); % assuming this function is in /dropbox/code/nickbox
+% assuming this function is in /dropbox/code/matlab/nickbox
+dbdir = fileparts(fileparts(fileparts(fileparts(mfilename('fullpath'))))); 
